@@ -1,7 +1,65 @@
-a {
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+body {
+    background-color: #1F2039;
+    margin: 0;
 }
 
-.purple {
+a {
+    color: #242424;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+    font-size: 3.5em;
     color: #A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #F9F8FF;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+li {
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+
+em {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+.header {
+    background-color: white;
+}
+
+main {
+    color: #F9F8FF;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #8E86B5, #ACAEED);
+    border-radius: 50px;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: white;
+    color: #242424;
+    /* position: fixed bottom; */
 }
