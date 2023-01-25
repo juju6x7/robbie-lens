@@ -2,9 +2,12 @@
 /* font-family: 'Manrope', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 
+* {
+    margin: 0;
+ }
+
 body {
     background-color: #1F2039;
-    margin: 0;
 }
 
 a {
@@ -24,12 +27,22 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
+h2{
+    margin: 30px;
+    font-family: 'Manrope', sans-serif;
+}
+
+h3 {
     color: #F9F8FF;
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 400;
     font-family: 'Manrope', sans-serif;
+    margin: 20px;
+}
+
+a .btn {
+    text-align: center;
 }
 
 p {
@@ -47,12 +60,17 @@ em {
     font-style: normal;
 }
 
-.header {
+header {
     background-color: white;
+    padding: 50px 20px;
 }
 
 main {
     color: #F9F8FF;
+}
+
+section {
+    padding: 80px;
 }
 
 .btn {
@@ -60,6 +78,7 @@ main {
     background: linear-gradient(90deg, #8E86B5, #ACAEED);
     border-radius: 50px;
     padding: 0 20px;
+    margin-top: 20px;
 }
 
 .btn:hover {
@@ -68,15 +87,30 @@ main {
 }
 
 .about {
+    width: 50%;
+    margin: auto;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.square-content {
     border-right:1px #A5B4FC solid;
     border-bottom:1px #A5B4FC solid;
-    width: 50%;
+    padding: 50px;
+}
+
+.services{
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 footer {
     background-color: white;
     color: #242424;
     /* position: fixed bottom; */
+    padding: 50px 20px;
 }
 
 .header img:hover, footer img:hover {
