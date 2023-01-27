@@ -139,10 +139,35 @@ section {
     text-align: center;
 }
 
-/* footer {
-    background-color: white;
-    color: #242424;
-    padding: 20px 50px;
-} */
+.portfolio {
+    background-color: #1F2039;
+}
+
+.portfolio-photos h2 {
+    padding-bottom: 50px;
+}
+
+
+.landscapes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+
+.portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+
+.landscapes img, .portraits img {
+    width: 100%;
+    height: 100%;
+    /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
+    object-fit: cover;
+  }
 
 
