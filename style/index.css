@@ -43,3 +43,23 @@
     text-align: center;
     padding: 5px;
   }
+
+  .contact {
+    background-color: #1f2039;
+    margin: auto;
+    text-align: center;
+  }
+
+  .contact h2 {
+    color:#acaeed;
+    padding-bottom: 80px;
+  }
+
+  form {
+    color:#f9f8ff;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  label {
+    padding-right: 10px;
+  }
