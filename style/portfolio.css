@@ -58,6 +58,10 @@
 }
 
 @media screen and (max-width: 996px) {
+  .portfolio-photos h2 {
+    margin-bottom: 20px;
+  }
+
   .landscapes {
     grid-template-columns: 1fr;
     gap: 15px;
