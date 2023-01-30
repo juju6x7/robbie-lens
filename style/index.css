@@ -1,86 +1,136 @@
-.intro-photo {
-    display: flex;
-    flex-direction: row;
-    max-width: 1000px;
-    align-items: flex-start;
-    margin: auto;
+.intro {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.intro div {
+  padding-right: 80px;
+}
+
+.intro h1 {
+  margin-bottom: 15px;
+}
+
+.intro p {
+  margin-bottom: 30px;
+}
+
+.intro,
+.about {
+  background-color: #1f2039;
+  color: #f9f8ff;
+}
+
+.last-project {
+  text-align: center;
+  background-color: white;
+}
+
+.last-project > h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.last-project img {
+  text-align: center;
+  padding: 5px;
+}
+
+.contact {
+  background-color: #1f2039;
+  font-family: "Manrope", sans-serif;
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  color: #a5b4fc;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.form-name-email {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  
-  .intro,
-  .about {
-    background-color: #1f2039;
-    color: #f9f8ff;
+
+  .intro img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
   }
-  
-  .headline {
-    padding-right: 80px;
+
+  .intro div {
+    padding-right: 0;
+    text-align: center;
+    order: 2;
   }
-  
-  .headline > p {
-    padding: 20px 0;
+
+  h1 {
+    font-size: 2em;
   }
-  
+
   .last-project {
-    text-align: center;
+    padding: 20px;
   }
-  
-  .last-project > h2 {
-    color: #242424;
-    text-align: center;
-    margin-bottom: 80px;
+
+  .last-project div {
+    flex-direction: column;
   }
-  
+
   .last-project img {
-    text-align: center;
-    padding: 5px;
+    width: 100%;
   }
 
   .contact {
-    background-color: #1f2039;
-    font-family: 'Manrope', sans-serif;
+    padding: 50px 20px;
   }
 
-  .contact h2 {
-    color:#acaeed;
-    padding-bottom: 80px;
-    color: #a5b4fc;
-    text-align: center;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 66.67%;
-    margin: auto;
-    color: white;
-  }
-  
   .form-name-email {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
-  
-  .form-column {
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    gap: 0;
   }
-  
-  input,
-  textarea {
-    padding: 15px;
-    border-radius: 3px;
-    border: none;
-  }
-  
-  label {
-    margin-bottom: 10px;
-  }
-  
-  input[type='submit'] {
-    width: 200px;
-    margin: auto;
-    margin-top: 30px;
 }

@@ -1,13 +1,13 @@
 main {
-  background-color: #1f2039;
-  color: #f9f8ff;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
 }
 
 h2 {
-  text-align: center;
-  padding-top: 30px;
   margin-bottom: 80px;
-  font-weight: 700;
 }
 
 .square-content {
@@ -16,39 +16,35 @@ h2 {
   padding: 50px;
   width: 50%;
   margin: auto;
+  margin-bottom: 80px;
 }
 
-.btn {
-    display: inline-block;
-    background: linear-gradient(90deg, #8e86b5, #acaeed);
-    border-radius: 50px;
-    padding: 0 20px;
-    margin-top: 80px;
-    margin-bottom: 120px;
-  }
+.square-content h2, .square-content ul {
+margin-top: 30px;
+}
 
-.tarifs {
-  text-align: center;
-  margin: auto;
-  /* width: 50%; */
-  font-family: "Manrope", sans-serif;
+.square-content + div {
+text-align: center;  
 }
 
 table {
-  margin: auto;
+  color: white;
+  text-align: center;
+  width: 100%;
   border-collapse: collapse;
 }
 
-th,
-td,
-tr {
+th, td {
   border: 1px solid #a5b4fc;
-}
-
-th {
-  padding: 20px;
+  padding: 15px;
 }
 
 td {
-  padding: 80px 150px;
+  padding: 80px;
+}
+
+@media screen and (max-width: 996px) {
+  .tarifs {
+    display: none;
+  }
 }
